@@ -1,0 +1,15 @@
+h3{
+    font-size: 30px !important;
+}
+.btn-success:hover{
+background-color: black;
+}
+canvas{
+animation-name: AI;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+@keyframes AI{
+from{box-shadow: 1px 1px 39px black;}
+to{box-shadow: 1px 1px 39px red;}
+}
